@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
                                         tvWeather.setText(weatherTables.get(0).getWeather());
                                         tvTemperature.setText(weatherTables.get(0).getTemperature());
                                         tvHumidity.setText(weatherTables.get(0).getHumidity());
-                                        tvSource.setText("From Local Source");
+                                        tvSource.setText("From Local Source (" + weatherTables.get(0).getDateTime() + ")");
                                         tvSource.setTextAppearance(MainActivity.this, R.style.LabelSmall_RobotoBold_Red);
                                     }
                                 } else {
@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     tvTemperature.setText("Min " + resultDTO.getMainDTO().getTempMin() + "-Max " + resultDTO.getMainDTO().getTempMax());
                     tvHumidity.setText("" + resultDTO.getMainDTO().getHumidity());
-                    tvSource.setText("From Remote Source");
+                    tvSource.setText("From Remote Source (" + AppUtility.getCurrentDateTime() + ")");
                     tvSource.setTextAppearance(MainActivity.this, R.style.LabelSmall_RobotoBold_AppColor);
 
                     try {
