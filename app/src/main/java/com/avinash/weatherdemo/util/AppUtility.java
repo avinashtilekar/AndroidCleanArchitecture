@@ -31,7 +31,7 @@ public class AppUtility {
     public static String HOURS = "HOURS";
     public static String MINUTE = "MINUTE";
     public static String SECOND = "SECOND";
-    public static int MAX_VALIDE_MINUTE_FOR_RECORD = 1;
+    public static int MAX_VALIDE_MINUTE_FOR_RECORD = 10;
 
     public static AppUtility getInstance() {
         if (appUtility == null) {
