@@ -1,0 +1,115 @@
+<resources>
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+    </style>
+
+    <!-- Text Size-->
+    <style name="LabelSmall">
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+
+    <style name="LabelMedium">
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="LabelLarge">
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+    <!-- End Text Size-->
+
+    <!-- Text Font-->
+
+    <style name="LabelSmall.RobotoBold">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="LabelMedium.RobotoBold">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="LabelLarge.RobotoBold">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+
+    <style name="LabelSmall.RobotoRegular">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="LabelMedium.RobotoRegular">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="LabelLarge.RobotoRegular">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <!-- End Text Font-->
+
+
+    <!-- Text Color-->
+
+    <style name="LabelSmall.RobotoBold.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="LabelSmall.RobotoBold.AppColor">
+        <item name="android:textColor">@color/appColor</item>
+    </style>
+    <style name="LabelSmall.RobotoBold.Red">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="LabelMedium.RobotoBold.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="LabelMedium.RobotoBold.AppColor">
+        <item name="android:textColor">@color/appColor</item>
+    </style>
+    <style name="LabelMedium.RobotoBold.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LabelLarge.RobotoBold.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="LabelLarge.RobotoBold.AppColor">
+        <item name="android:textColor">@color/appColor</item>
+    </style>
+
+
+    <style name="LabelSmall.RobotoRegular.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="LabelSmall.RobotoRegular.AppColor">
+        <item name="android:textColor">@color/appColor</item>
+    </style>
+
+    <style name="LabelMedium.RobotoRegular.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="LabelMedium.RobotoRegular.AppColor">
+        <item name="android:textColor">@color/appColor</item>
+    </style>
+
+    <style name="LabelLarge.RobotoRegular.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="LabelLarge.RobotoRegular.AppColor">
+        <item name="android:textColor">@color/appColor</item>
+    </style>
+
+    <!-- End Text Font-->
+
+</resources>
