@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "208302481862",
+    "project_id": "cleanarchitecture-b06b4",
+    "storage_bucket": "cleanarchitecture-b06b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208302481862:android:cb127cf7bd7f17a24d92c7",
+        "android_client_info": {
+          "package_name": "com.avinash.weatherdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208302481862-fi9ftg23jd6am3j2r8qg4akgbd8qgoa7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPkQrLA5qZCITNbt5-XQFu8ntgFDr1vDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208302481862-fi9ftg23jd6am3j2r8qg4akgbd8qgoa7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
