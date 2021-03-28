@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                                         //Wait to Delete Redownload Data
                                         new Handler().postDelayed(new Runnable() {
                                             public void run() {
-                                                weatherDetailsViewModel.getWeatherDetails(actCity.getText().toString(), "094aa776d64c50d5b9e9043edd4ffd00");
+                                                weatherDetailsViewModel.getWeatherDetails(actCity.getText().toString(), getString(R.string.openweathermap_api_key));
                                             }
                                         }, 300);
 
@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
                                         tvSource.setTextAppearance(MainActivity.this, R.style.LabelSmall_RobotoBold_Red);
                                     }
                                 } else {
-                                    weatherDetailsViewModel.getWeatherDetails(actCity.getText().toString(), "094aa776d64c50d5b9e9043edd4ffd00");
+                                    weatherDetailsViewModel.getWeatherDetails(actCity.getText().toString(), getString(R.string.openweathermap_api_key));
                                 }
                             }
                         }
